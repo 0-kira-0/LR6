@@ -29,14 +29,20 @@
 
 > Далее работа продолжена локально
 
-Получена история операций ветки master с помощью `git log`
+Получена история операций ветки **master** с помощью `git log`
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/9.png)
 
-Просмотрены последние изменения ветки master (3 последних) с помощью `git log -p -3`
+Просмотрены последние изменения ветки **master** (3 последних) с помощью `git log -p -3`
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/10.png)
 
 Совершён переход на ветку branch1 с помощью `git checkout branch1`
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/11.png)
+
+Просмотрена история операций и последних трёх изменений ветки **branch1** (`git log` и `git log -p-3`)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/12.png)
+![](https://github.com/0-kira-0/LR6/blob/master/screens/13.png)
+
