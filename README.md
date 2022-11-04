@@ -37,7 +37,7 @@
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/10.png)
 
-Совершён переход на ветку branch1 с помощью `git checkout branch1`
+Совершён переход на ветку **branch1** с помощью `git checkout branch1`
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/11.png)
 
@@ -45,4 +45,26 @@
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/12.png)
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/13.png)
+
+Для слияния веток в одну переходим в ветку **master** (`git checkout <ветка>`) и производим слияние веток (`git merge branch1`)
+> Переход на ветку **master** нужен т.к. по заданию необходимо получить слияние в ветку **master**
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/14.png)
+
+Видим, что появился конфликт.
+Чтобы узнать состояние проекта используем `git status`.
+По полученным данным понимаем, что слияние не происходит т.к. есть "несоединённая часть". Разрешаем конфликт по данной инструкции (`git add <file>`)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/15.png)
+
+Проверяем готовность к дальнейшему слиянию с помощью команды `git status`. Видим, что конфликты разрешены, но всё ещё идёт процесс слияния
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/16.png)
+
+Для завершения процесса необходимо прописать команду `git commit -m`
+> `-m` нужно, чтобы можно было написать небольшой комментарий сразу в консоли
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/17.png)
+
+
 
