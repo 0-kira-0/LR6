@@ -66,5 +66,31 @@
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/17.png)
 
+Удаление побочной ветки после слияния с помощью `git branch -d <ветка>`
 
+![](https://github.com/0-kira-0/LR6/blob/master/screens/18.png)
+
+Проверка правильности выполнения с помощью `git branch`
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/19.png)
+
+Изменения проведены и зафиксированы (созданы 2 текстовых файла), используемые команды:
+- `echo текст_изменения > файл_для_сохранения`
+- `git add <файл>`
+- `git commit -m "изменение n"`
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/20.png)
+![](https://github.com/0-kira-0/LR6/blob/master/screens/21.png)
+
+История операций (`git log -3`)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/22.png)
+
+Сделан откат коммита (`git reset HEAD~1`) и проверка с помощью истории изменений (`git log`)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/23.png)
+
+Создана ветка для отчёта **branch2** (`git branch branch2`)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/24.png)
 
