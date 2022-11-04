@@ -98,3 +98,6 @@
 
 ![](https://github.com/0-kira-0/LR6/blob/branch2/screens/26.png)
 
+История операций в форматированном виде (`git log --date=format:'%D' --pretty=format:"%h - %cd, %cn : %s"`)
+
+![](https://github.com/0-kira-0/LR6/blob/branch2/screens/25.png)
