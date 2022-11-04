@@ -96,5 +96,5 @@
 
 Окно редактора (Notepad)
 
-![Hell](https://github.com/0-kira-0/LR6/blob/master/screens/25.png)
+![Hell](https://github.com/0-kira-0/LR6/blob/master/screens/26.png)
 
