@@ -94,3 +94,6 @@
 
 ![](https://github.com/0-kira-0/LR6/blob/master/screens/24.png)
 
+Окно редактора (Notepad)
+
+![](https://github.com/0-kira-0/LR6/blob/master/screens/25.png)
